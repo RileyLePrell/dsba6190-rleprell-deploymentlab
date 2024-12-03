@@ -98,6 +98,7 @@ resource "azurerm_mssql_database" "db" {
     foo = "bar"
   }
 
+# lifecycle
   lifecycle {
     prevent_destroy = true
   }
